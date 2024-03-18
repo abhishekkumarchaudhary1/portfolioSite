@@ -1,0 +1,1 @@
+Creating a dynamic modern Portfolio Site with Tailwind design patterns using HTML, CSS and VANILLA JS in Vite.
