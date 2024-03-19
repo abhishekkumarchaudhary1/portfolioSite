@@ -44,6 +44,15 @@ html,body{
 html{
   scroll-behavior: smooth;
 }
+.light-mode{
+  --clr-light: #020617;
+  --clr-dark: #f1f5f9;
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+  /* --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5; */
+}
 body{
   font-family: 'General Sans', sans-serif;
   background-color: var(--clr-dark);
