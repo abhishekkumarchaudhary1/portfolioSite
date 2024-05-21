@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Work</a>
+
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+              
+            </button>
+          </li>
+          <li>
+            <a href="/AbhishekResumeNew.pdf" class="header__resume btn">Resume</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+        </button>
+      </nav>
+
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li><a href="#about" class="mobile-nav__link">About</a></li>
+          <li><a href="#featured" class="mobile-nav__link">Work</a></li>
+          <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+              
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__btn btn" href="/AbhishekResumeNew.pdf" >Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- End of Mobile Navigation -->
+
+    <main>
+      <section class="hero container">
+        <img class="hero__image" src="https://avatars.githubusercontent.com/u/93211705?v=4" alt="Display Picture">
+        <h2 class="hero__subtitle">Hi, I am Abhishek Kumar Chaudhary</h2>
+        <h1 class="hero__title">FRONT-END <br> WEB DEVELOPER</h1>
+        <p class="hero__description">An aspiring job seeker in <strong>web development</strong> ready to use the respective skills and learn to work 
+          towards the shared goal.</p>
+        <a class="hero__button btn" href="#">Reach Out</a>
+
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">Hey, I'm <strong>Abhishek Kumar Chaudhary</strong>, your friendly neighborhood <strong>front-end developer</strong> here to make your website shine!</p>
+          <p class="about__description">My journey into the world of front-end development started with a love for technology and design. Over the years, I've honed my skills in <strong>HTML, CSS, and JavaScript</strong> ,constantly staying updated with the latest trends and technologies.</p>
+          <p class="about__description">Beyond coding, I believe in the power of <strong>collaboration and communication</strong>. I enjoy working closely with clients to understand their goals and translate them into digital solutions that resonate with their audience. </p>
+          <hr class="about__hr">
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__li">Javascript(ES6+)</li>
+              <li class="about__li">CSS3</li>
+              <li class="about__li">HTML5</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__li">React Js</li>
+              <li class="about__li">MongoDB</li>
+              <li class="about__li">TailwindCSS</li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="about__image-wrapper">
+          <img class="about__image" src="https://avatars.githubusercontent.com/u/93211705?v=4" alt="Display Picture">
+        </div>
+
+      </section>
+      <section id="featured" class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <h2 class="featured__title">My Portfolio Site</h2>
+        <p class="featured__description">Creating a dynamic modern Portfolio Site with Tailwind design patterns using HTML, CSS, and Vanilla JS in Vite combines sleek aesthetics with cutting-edge web development techniques. Leveraging Tailwind CSS for design, HTML for structure, and Vanilla JS for interactivity, the site promises responsiveness and visual appeal across devices. Vite streamlines development, ensuring fast iteration and deployment. This project merges design and technology to craft an impressive portfolio website that showcases skills and engages users seamlessly.</p>
+        <div class="featured__info-container">
+
+          <div>
+            <h3 class="featured__label">Tech Stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">HTML5</li>
+              <li class="featured__info">CSS3</li>
+              <li class="featured__info">JAVASCRIPT</li>
+              <li class="featured__info">NODE JS</li>
+              <li class="featured__info">VITE</li>
+              <li class="featured__info">TAILWIND DESIGN</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Front-End</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">March 2024 - Present</p>
+  
+          </div>
+        </div>
+        <div class="featured__image-container">
+
+          <div class="featured__image-wrapper">
+            <img src="/featured_1.png" alt="" class="featured__image">
+  
+          </div>
+          <div class="featured__image-wrapper">
+            <img src="/featured_2.png" alt="" class="featured__image">
+  
+          </div>
+          <div class="featured__image-wrapper">
+            <img src="/featured_3.png" alt="" class="featured__image">
+  
+          </div>
+        </div>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">Below are the projects I've crafted, each a testament to my skills and creativity. Explore the culmination of my work and expertise.</p>
+        
+        <div class="work__container">
+
+          <!-- Project1 -->
+          <h3 class="work__project-title">Gym Site</h3>
+          <div class="work__image-wrapper work__image1">
+            <img class="work__image" src="/project_1.png" alt="gymsite">
+  
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Gym Site</h3>
+  
+            <p class="work__project-description">Embark on a journey of innovation and creativity with our dynamic gym site project, meticulously constructed using HTML, CSS, and JS. </p>
+            <p class="work__project-description">From inception to execution, we've embraced cutting-edge techniques and best practices to deliver a seamless user experience and unparalleled functionality, setting a new standard in web development</p>
+            <a class="work__project-btn btn" href="#">Website</a>
+          </div>
+          
+          <!-- Project2 -->
+          <h3 class="work__project-title">Drone Site</h3>
+          <div class="work__image-wrapper work__image2">
+            <img class="work__image" src="/project_2.png" alt="dronesite">
+  
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Drone Site</h3>
+  
+            <p class="work__project-description">Explore the future of drone maintenance and care with our innovative site, meticulously designed using HTML, CSS, and JS.</p>
+            <p class="work__project-description">Discover a comprehensive platform where drone enthusiasts can access vital resources, tutorials, and tools, all seamlessly integrated to ensure optimal performance and longevity for your aerial companions.</p>
+            <a class="work__project-btn btn" href="#">Website</a>
+          </div>
+          
+          <!-- Project3 -->
+          <h3 class="work__project-title">Atm Simulator</h3>
+          <div class="work__image-wrapper work__image3">
+            <img class="work__image" src="/project_3.png" alt="atmsimulator">
+  
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Atm Simulator</h3>
+
+            <p class="work__project-description">Dive into the realm of financial simulation with our ATM simulator project, meticulously crafted using HTML, CSS, and JS.</p>
+            <p class="work__project-description">Experience the essence of banking in a virtual environment, where intuitive design and seamless functionality converge to offer a realistic and immersive banking experience at your fingertips.</p>
+            <a class="work__project-btn btn" href="#">Website</a>
+          </div>
+        </div>
+
+
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get in touch</h2>
+        <p class="contact__description">Easily reach out and connect with us for any inquiries or assistance.</p>
+        <a class="contact__btn btn" href="mailto:abhishek.chaudhary33@gmail.com" target="_blank">Reach Out</a>
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ABHISHEK KUMAR CHAUDHARY~</h3>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
